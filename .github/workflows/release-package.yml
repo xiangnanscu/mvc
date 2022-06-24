@@ -1,4 +1,4 @@
-name: Node.js Package: @xiangnanscu/mvc
+name: @xiangnanscu/mvc
 
 on:
   release:
