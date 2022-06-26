@@ -1,9 +1,11 @@
 {
   "name": "@xiangnanscu/mvc",
-  "version": "1.0.12",
+  "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
+    "build": "vite build",
+    "preview": "vite preview",
     "test": "exit 0"
   },
   "repository": {
@@ -15,8 +17,8 @@
   "bugs": {
     "url": "https://github.com/xiangnanscu/mvc/issues"
   },
-  "publishConfig2": {
-    "@xiangnanscu:registry": "https://npm.pkg.github.com"
-  },
-  "homepage": "https://github.com/xiangnanscu/mvc#readme"
+  "homepage": "https://github.com/xiangnanscu/mvc#readme",
+  "devDependencies": {
+    "vite": "^2.9.12"
+  }
 }
